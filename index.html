@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hamza Salim — Software Engineer specializing in .NET, Angular, SQL Server, APIs, performance optimization, and production business systems." />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Hamza Salim | .NET & Angular Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">HS</span>
+        <span class="brand-name">Hamza Salim</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#projects" data-i18n="nav_projects">Projects</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#experience" data-i18n="nav_experience">Experience</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="langToggle" class="icon-btn" type="button" aria-label="Toggle language">AR</button>
+        <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme">☼</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span><span data-i18n="available">Available for freelance & contract work</span></div>
+          <h1><span data-i18n="hero_1">I build and improve</span> <span class="gradient-text">.NET + Angular</span> <span data-i18n="hero_2">business applications.</span></h1>
+          <p class="hero-text" data-i18n="hero_text">Software Engineer focused on production systems, APIs, SQL Server, performance optimization, reporting, and reliable deployments.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects" data-i18n="view_work">View my work</a>
+            <a class="btn secondary" href="#contact" data-i18n="hire_me">Work with me</a>
+          </div>
+          <div class="hero-tags" aria-label="Core technologies">
+            <span>C#</span><span>ASP.NET</span><span>Angular</span><span>SQL Server</span><span>REST APIs</span><span>IIS</span>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <div class="terminal-bar"><span></span><span></span><span></span></div>
+          <div class="terminal">
+            <p><span class="muted">$</span> whoami</p><p class="terminal-result">Software Engineer</p>
+            <p><span class="muted">$</span> stack --primary</p><p class="terminal-result">.NET · Angular · SQL Server</p>
+            <p><span class="muted">$</span> focus --production</p><p class="terminal-result">APIs · Performance · Business Systems</p>
+            <p><span class="muted">$</span> approach</p><p class="terminal-result">Understand → Diagnose → Build → Test → Ship</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stats section compact">
+      <div class="container stats-grid">
+        <article class="stat-card"><strong>3 min → 25 sec</strong><span data-i18n="stat_perf">Real workflow performance improvement</span></article>
+        <article class="stat-card"><strong>Full Stack</strong><span data-i18n="stat_stack">Frontend, backend, database & deployment</span></article>
+        <article class="stat-card"><strong>Production</strong><span data-i18n="stat_prod">Hands-on work on real business systems</span></article>
+        <article class="stat-card"><strong>AR / EN</strong><span data-i18n="stat_lang">Bilingual application experience</span></article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split">
+        <div><p class="section-kicker" data-i18n="about_kicker">About</p><h2 data-i18n="about_title">I work best where software meets real business operations.</h2></div>
+        <div class="about-copy">
+          <p data-i18n="about_p1">I’m Hamza Salim, a Software Engineering graduate specializing in .NET, Angular, and SQL Server. My work centers on maintaining and extending production business systems rather than demo applications.</p>
+          <p data-i18n="about_p2">I’m comfortable entering an existing codebase, tracing problems across the frontend, API, and database layers, then delivering focused fixes without unnecessary rewrites.</p>
+          <p data-i18n="about_p3">I also handle deployment and production troubleshooting, including Angular builds, .NET releases, IIS configuration, and database-related issues.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker" data-i18n="projects_kicker">Selected work</p><h2 data-i18n="projects_title">Case studies from production-oriented development</h2></div>
+          <p class="section-note" data-i18n="projects_note">Project details are intentionally generalized to protect client and company confidentiality.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-index">01</div>
+            <div class="project-body">
+              <div class="project-topline"><span class="pill">.NET</span><span class="pill">Angular</span><span class="pill">SQL Server</span></div>
+              <h3 data-i18n="p1_title">Enterprise Inventory & Asset Management System</h3>
+              <p data-i18n="p1_desc">Contributed to a large production system covering inventory balances, locations, employee custody, transactions, stocktaking, dashboards, reports, and role-based access.</p>
+              <ul>
+                <li data-i18n="p1_b1">Built and maintained Angular pages and reusable business workflows.</li>
+                <li data-i18n="p1_b2">Developed and integrated ASP.NET Web APIs and SQL Server procedures.</li>
+                <li data-i18n="p1_b3">Implemented Excel/PDF reporting and bilingual Arabic/English experiences.</li>
+                <li data-i18n="p1_b4">Worked with authentication, permissions, caching, and production deployment.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-index">02</div>
+            <div class="project-body">
+              <div class="project-topline"><span class="pill">Performance</span><span class="pill">EF / SQL</span></div>
+              <h3 data-i18n="p2_title">Backend Performance Optimization</h3>
+              <p data-i18n="p2_desc">Investigated a slow business operation that was taking around three minutes to complete and reduced the execution time to roughly 25 seconds.</p>
+              <ul>
+                <li data-i18n="p2_b1">Traced repeated database work inside the backend workflow.</li>
+                <li data-i18n="p2_b2">Reduced unnecessary persistence/database calls.</li>
+                <li data-i18n="p2_b3">Validated the refactor against the expected business behavior.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-index">03</div>
+            <div class="project-body">
+              <div class="project-topline"><span class="pill">MAUI / Xamarin</span><span class="pill">RFID</span><span class="pill">WebView</span></div>
+              <h3 data-i18n="p3_title">Hybrid Mobile RFID Workflow</h3>
+              <p data-i18n="p3_desc">Worked on a hybrid mobile client combining native mobile capabilities with an Angular WebView for inventory and asset workflows.</p>
+              <ul>
+                <li data-i18n="p3_b1">Integrated RFID/Bluetooth scanning into operational workflows.</li>
+                <li data-i18n="p3_b2">Connected mobile interactions with the existing backend and web application.</li>
+                <li data-i18n="p3_b3">Supported real-time notification and business process integration.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-index">04</div>
+            <div class="project-body">
+              <div class="project-topline"><span class="pill">.NET 7</span><span class="pill">SMTP</span><span class="pill">HTML Email</span></div>
+              <h3 data-i18n="p4_title">Email Notification Microservice</h3>
+              <p data-i18n="p4_desc">Built email notification functionality for business events using a dedicated .NET service and configurable SMTP delivery.</p>
+              <ul>
+                <li data-i18n="p4_b1">Created reusable notification templates for operational events.</li>
+                <li data-i18n="p4_b2">Handled SMTP configuration, TLS/connectivity troubleshooting, and service integration.</li>
+                <li data-i18n="p4_b3">Supported Arabic content and structured transactional emails.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker" data-i18n="services_kicker">Freelance services</p><h2 data-i18n="services_title">What I can help you ship</h2></div></div>
+        <div class="services-grid">
+          <article class="service-card"><span class="service-num">01</span><h3 data-i18n="s1_title">Bug Fixing & Maintenance</h3><p data-i18n="s1_desc">Debug existing Angular/.NET applications and trace issues across UI, API, and database layers.</p></article>
+          <article class="service-card"><span class="service-num">02</span><h3 data-i18n="s2_title">REST APIs & Integrations</h3><p data-i18n="s2_desc">Build or extend ASP.NET APIs, integrate external services, and connect frontend workflows.</p></article>
+          <article class="service-card"><span class="service-num">03</span><h3 data-i18n="s3_title">SQL Server Optimization</h3><p data-i18n="s3_desc">Improve queries, stored procedures, data access patterns, and slow business operations.</p></article>
+          <article class="service-card"><span class="service-num">04</span><h3 data-i18n="s4_title">Angular Features</h3><p data-i18n="s4_desc">Build data-heavy pages, forms, filters, dashboards, reports, and Angular Material interfaces.</p></article>
+          <article class="service-card"><span class="service-num">05</span><h3 data-i18n="s5_title">Reports & Exports</h3><p data-i18n="s5_desc">Create Excel/PDF reporting flows and business-friendly data exports.</p></article>
+          <article class="service-card"><span class="service-num">06</span><h3 data-i18n="s6_title">IIS Deployment Support</h3><p data-i18n="s6_desc">Build, deploy, configure, and troubleshoot Angular + .NET applications on IIS.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker" data-i18n="exp_kicker">Experience</p><h2 data-i18n="exp_title">Professional experience & focus</h2></div></div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div><div class="timeline-meta">2026 — Present</div>
+            <div class="timeline-content"><h3 data-i18n="e1_title">Full Stack .NET & Angular Development</h3><p data-i18n="e1_desc">Production-focused development across inventory, custody, reporting, dashboards, authentication, APIs, SQL Server, mobile integration, and IIS deployments.</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div><div class="timeline-meta">2026</div>
+            <div class="timeline-content"><h3 data-i18n="e2_title">Full Stack Intern — DWT Jordan</h3><p data-i18n="e2_desc">Hands-on training and development using .NET and Angular in a professional software environment.</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div><div class="timeline-meta" data-i18n="education_label">Education</div>
+            <div class="timeline-content"><h3 data-i18n="edu_title">B.Sc. Software Engineering</h3><p data-i18n="edu_desc">Al-Hussein Bin Talal University</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker" data-i18n="stack_kicker">Technology stack</p><h2 data-i18n="stack_title">Tools I use to get work done</h2></div></div>
+        <div class="stack-groups">
+          <div class="stack-group"><h3 data-i18n="backend">Backend</h3><div class="stack-list"><span>C#</span><span>ASP.NET Web API</span><span>ASP.NET Core</span><span>Entity Framework</span><span>Dapper</span><span>REST APIs</span></div></div>
+          <div class="stack-group"><h3 data-i18n="frontend">Frontend</h3><div class="stack-list"><span>Angular</span><span>TypeScript</span><span>Angular Material</span><span>HTML</span><span>CSS</span><span>Bootstrap</span></div></div>
+          <div class="stack-group"><h3 data-i18n="data">Data & Reporting</h3><div class="stack-list"><span>SQL Server</span><span>Stored Procedures</span><span>Excel Export</span><span>PDF Reports</span><span>DataTables</span></div></div>
+          <div class="stack-group"><h3 data-i18n="delivery">Delivery & Integration</h3><div class="stack-list"><span>IIS</span><span>Git</span><span>JWT / OAuth2</span><span>SMTP</span><span>WebSocket</span><span>.NET MAUI</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <p class="section-kicker" data-i18n="contact_kicker">Let’s work together</p>
+          <h2 data-i18n="contact_title">Have a .NET, Angular, SQL Server, or existing-system problem?</h2>
+          <p data-i18n="contact_text">I’m available for freelance tasks, bug fixes, feature work, API development, database optimization, and deployment support.</p>
+          <div class="contact-actions">
+            <a class="btn primary" id="githubLink" href="https://github.com/h2mza1" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn secondary" id="linkedinLink" href="#" data-placeholder="linkedin" data-i18n="linkedin">LinkedIn</a>
+            <a class="btn secondary" id="emailLink" href="#" data-placeholder="email" data-i18n="email_me">Email me</a>
+          </div>
+          <small class="contact-note" data-i18n="contact_note">Replace the LinkedIn and email placeholders in index.html before publishing.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-wrap"><span>© <span id="year"></span> Hamza Salim</span><span data-i18n="footer_text">Built for clarity, speed, and real work.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
